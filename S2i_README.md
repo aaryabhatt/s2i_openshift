@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Creating a basic S2I builder image  
 
@@ -80,3 +81,7 @@ s2i build --incremental=true test/test-app nginx-centos7 nginx-app
 ---> Building and installing application from source...
 ```
 This will run the *save-artifacts* script which includes the custom code to backup the currently running application source, rebuild the application image, and then re-deploy the previously saved source using the *assemble* script.
+=======
+# s2i_openshift
+s2i_openshift example to build a image for spring boot app
+>>>>>>> 69fc050cbff3cf324d7ac7b26d61b68449001b41
