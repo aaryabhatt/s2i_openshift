@@ -8,4 +8,5 @@
 #
 
 
-exec java -jar /app.jar
+#exec java -jar /app.jar
+exec java -jar build/libs/gs-spring-boot-docker-0.1.0.jar
